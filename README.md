@@ -9,6 +9,7 @@ FloPoCo allows to generate VHDL code for Posit⟨_n,es_⟩ arithmetic units with
 * [Posit Adder](/PositAdd)
 * [Posit Multiplier](./PositMult)
 * [Posit Divider](./PositDiv) using **non-restoring algorithm**
+* [Posit Square root](https://github.com/RaulMurillo/ARITH24/tree/050d8827d2ed79632213f8f401e25a8797c9a05b)
 * [Posit Fused Multiply-accumulate](./PositMAC) (MAC) with **quire support**
 * [Posit Logarithm-Approximate Multiplier](./PositLAM)
 
@@ -73,6 +74,17 @@ If you find this code useful in your research, please consider citing:
   year={2023},
   doi={10.1109/ASAP57973.2023.00020},
   organization={IEEE}
+}
+```
+> R. Murillo, A. A. Del Barrio and G. Botella, "Square Root Unit with Minimum Iterations for Posit Arithmetic." *2024 IEEE 31st Symposium on Computer Arithmetic (ARITH)*. IEEE, 2024, doi: [10.1109/ARITH61463.2024.00030](https://doi.org/10.1109/ARITH61463.2024.00030).
+```bib
+@InProceedings{Murillo2024Square,
+    title     = {{Square Root Unit with Minimum Iterations for Posit Arithmetic}},
+    author    = {Murillo, Raul and Del Barrio, Alberto A. and Botella, Guillermo},
+    booktitle = {2024 IEEE 31st Symposium on Computer Arithmetic (ARITH)},
+    pages     = {132--138},
+    year      = {2024},
+    publisher = {IEEE},
 }
 ```
 
